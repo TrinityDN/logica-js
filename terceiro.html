@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>Calculadora de Preços</title>
+  </head>
+  <body>
+    <header>
+      <h1>CALCULADORA DE PREÇOS</h1>
+      <div id="teste">
+        <div id="alinha-1">
+        <label class="olabel" for="">Valor do investimento: </label>
+        <input type="text" id="investimentoTotal" name="investimentoTotal" width="60px"/>
+        </div>
+        <div id="alinha-2">
+        <label class="olabel" for="">Valor mensal:</label>
+        <input type="text" id="investimentoMensal" name="investimentoMensal"/>
+        </div>
+        <div id="alinha-3">
+        <label class="olabel" for="">Taxa mensal:</label>
+        <input type="taxa" id="taxa" name="taxa"/>
+        </div>
+
+        <button id="enviar" onclick="enviar()">Enviar</button>
+      </div>
+
+      <div class="teste" id="investimentoTotal"></div>
+      <div id="investimentoMensal"></div>
+      <div id="taxa"></div>
+    </header>
+    <main>
+      <div id="div-calculo">
+        <p class="texto">Deseja calcular o investimento anual?</p>
+        <button id="calcular" onclick="calcularInvestimento()">Calcular</button>
+        <div id="resultadoInvestimento"></div>
+      </div>
+      <div id="div-simulado">
+        <p class="texto">Deseja simular o próximo investimento anual?</p>
+        <button id="simular" onclick="resultadoSimulado()">Simular</button>
+        <div id="resultadoSimulando"></div>
+      </div>
+    </main>
+    <footer>
+      <a href="index.html">
+        <button class="voltar">Voltar</button>
+      </a>
+    </footer>
+  </body>
+  <script src="terceiro.js"></script>
+</html>

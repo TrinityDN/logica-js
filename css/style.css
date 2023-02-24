@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&family=Lobster+Two:ital@0;1&family=Open+Sans:wght@300;400&family=Pacifico&family=Ruda:wght@400;500;800&family=Satisfy&family=Ubuntu:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(78,79,80);
+    background: linear-gradient(90deg, rgba(78,79,80,1) 1%, rgba(225,228,226,1) 34%, rgba(225,228,226,1) 60%, rgba(78,79,80,1) 100%);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: rgb(22, 22, 22);
+    height: 100vh;
+
+}
+
+header{
+    margin-top: 2%;
+    text-align: center;
+}
+
+main{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#pecas{
+    background-color: rgba(19, 18, 18, 0.836);
+    border-radius: 10px;
+    font-size: 120%;
+    gap: 2%;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #f0f3f1;
+}
+
+button{
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 40%;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#nomePeca, #quantidadePeca, #totalPeca{
+    margin-bottom: 2%;
+}
+
+#titulo-peca{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+#resultadoo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#enviar{
+    width: 50%;
+}
+
+#contagem{
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+}
+
+input{
+    outline: 0;
+    border-radius: 3px;
+    border: none;
+    padding: 1%;
+    box-shadow: 1px 4px 9px #00000048;
+}
+
+p{
+    margin-top: 1%;
+    text-align: center;
+}
+
+hr{
+    margin-top: 6%;
+    color: black;
+    width: 70%;
+}
+
+.swal-button{
+    background-color: black;
+    width: 100%;
+}
+
+.botoes-teste{
+    height: 40px;
+    width: 140%;
+}
+
+button:hover{
+    background-color: rgba(12, 12, 12, 0.815);
+}
+
+#botoes{
+    margin-top: 20%;
+    display: flex;
+    justify-content:space-between;
+    gap: 20%;
+}
+
+#tech{
+    width: 80%;
+}
+
+#alinhar{
+    display: flex;
+    justify-content: center;
+    margin-right: 10%;
+}
+
+.voltar {
+    margin-top: 4%;
+    margin-left: 5%;
+    width: 80px;
+}
+
+#resultadoInvestimento, #resultadoSimulando{
+    background-color: rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+    margin-top: 5%;
+    padding: 3%;
+    width: 20vw;
+}
+
+#enviar{
+    margin-top: 2%;
+    width: 80px;
+}
+
+#teste{
+    margin-top: 5%;
+}
+
+#alinha-1, #alinha-2, #alinha-3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#investimentoMensal, #investimentoMensal, #investimentoTotal, #taxa{
+    margin: 0 auto;
+    width: 15%;
+}
+
+.texto{
+   text-align: left;
+} 
+
+label{
+    margin: 1%;
+}
